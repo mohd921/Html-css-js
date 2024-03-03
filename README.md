@@ -2,4 +2,4 @@
 My front-end work
 [Uploading Timeline.txt…]()
 [Uploading e-shop page.txt…]()
-[Uploading About me page.txt…]()
+[About me page.txt…]()
