@@ -1,0 +1,28 @@
+<h1>HELLO WORLD</h1>
+<h3>my name is john doe</h3>
+<H4>Im a web developer in dubai</H4>
+<a href="https://www.teachmecode.ae">Check out my work!</a>
+<h3>Contact Me</h3>
+<a href="https://www.snapchat.com"><img src="snapchat_logo.png" alt="Snapchat"></a>
+<a href="https://www.instagram.com"><img src="instagram_logo.png" alt="Instagram"></a>
+<a href="https://www.discord.com"><img src="discord_logo.png" alt="Discord"></a>
+<html>
+<head>
+  <title>Contact Form</title>
+</head>
+<body>
+  <h1>Contact Me</h1>
+  <form>
+    <label for="name">Your Name:</label>
+    <input type="text" id="name" name="name" required><br><br>
+    
+    <label for="email">Your Email:</label>
+    <input type="email" id="email" name="email" required><br><br>
+    
+    <label for="message">Your Message:</label>
+    <textarea id="message" name="message" required></textarea><br><br>
+    
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
