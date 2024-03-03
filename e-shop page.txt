@@ -1,0 +1,82 @@
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>E-Shop</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    .header {
+        background-color: #f2f2f2;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .shop-name {
+        color: purple;
+        font-weight: bold;
+    }
+    .cart {
+        display: flex;
+        align-items: center;
+    }
+    .cart-icon {
+        margin-right: 5px;
+    }
+    .products {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .product {
+        margin: 10px;
+        text-align: center;
+    }
+</style>
+</head>
+<body>
+    <div class="header">
+        <div class="shop-name">E-Shop</div>
+        <div class="cart">
+            <img src="shopping-cart-icon.png" alt="Shopping Cart" class="cart-icon">
+            <span>4</span>
+        </div>
+    </div>
+    <div class="products">
+        <div class="product">
+            <img src="product1.jpg" alt="Product 1">
+            <div>Product 1</div>
+            <div>$300</div>
+        </div>
+        <div class="product">
+            <img src="product2.jpg" alt="Product 2">
+            <div>Product 2</div>
+            <div>$300</div>
+        </div>
+        <div class="product">
+            <img src="product3.jpg" alt="Product 3">
+            <div>Product 3</div>
+            <div>$300</div>
+        </div>
+        <div class="product">
+            <img src="product4.jpg" alt="Product 4">
+            <div>Product 4</div>
+            <div>$300</div>
+        </div>
+        <div class="product">
+            <img src="product5.jpg" alt="Product 5">
+            <div>Product 5</div>
+            <div>$300</div>
+        </div>
+        <div class="product">
+            <img src="product6.jpg" alt="Product 6">
+            <div>Product 6</div>
+            <div>$300</div>
+        </div>
+    </div>
+</body>
+</html>
